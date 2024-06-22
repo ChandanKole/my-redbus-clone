@@ -1,0 +1,514 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    text-decoration: none;
+    letter-spacing: -.31px;
+
+}
+
+header {
+    width: 100%;
+    height: 77px;
+    padding: 13.6px 0px 0px;
+    background-color: #d84e55;
+}
+
+.header-icons {
+    width: 1128px;
+    height: 63px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-icons-one {
+    width: 283.7px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-icons-one img {
+    width: 65px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.header-icons-one a {
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    padding: 20px 8px;
+    cursor: pointer;
+}
+
+.header-icons-one a:hover {
+    font-weight: 700;
+    border-bottom: #fff 3px solid;
+}
+
+.header-icons-two {
+    width: 147.1px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-icons-two-a {
+    width: 73.1px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-icons-two-a img {
+    width: 24px;
+    height: 24px;
+}
+
+.header-icons-two-a span {
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header-icons-two-b {
+    width: 46px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-icons-two-b img {
+    width: 24px;
+    height: 24px;
+}
+
+.header-icons-two-b i {
+    width: 14px;
+    height: 9px;
+}
+
+.banner {
+    width: 1349px;
+    height: 568px;
+    margin: auto;
+    background: linear-gradient(6deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url(../images/main-background.png);
+    background-size: cover;
+}
+
+.banner-home{
+    width: 1128px;
+    height: 30px;
+    display: flex;
+    padding: 20px 110px;
+}
+.banner-home div{
+    color: #9f9eff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.banner-home p{
+    font-size:16px ;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+}
+.banner-home i{
+    color: #fff;
+    margin: 0px 8px;
+}
+.redrail-train-ticket{
+    width: 1061px;
+    height: 520px;
+    margin: auto;
+}
+.redrail-train-ticket-up{
+    height: 147px;
+    text-align: center;
+    padding-right: 100px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.redrail-train-ticket-up img{
+    width: 88px;
+    height: 48px;
+    margin-left: 100px;
+}
+.redrail-train-ticket-up h1{
+    width: 678px;
+    height: 67.5px;
+    margin-left: 100px;
+    font-size: 45px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 67.5px;
+    color: #fff;
+}
+.redrail-train-ticket-up span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #fff;
+    margin-left: 100px;
+}
+.redrail-train-ticket-down{
+    width: 1061px;
+    height: 242px;
+    border: 1px solid #474747;
+    border-radius: 72px;
+    background: rgba(92, 92, 92, .48);
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, .24);
+}
+.redrail-train-ticket-down-a{
+    width: 995px;
+    height: 40px;
+    margin: 32px 0px 24px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-left:32px;
+}
+.rttda{
+    width: 193px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.rttda p{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #1d1d1d;
+}
+.rttda-round{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #d84e55;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rttda-round div{
+    width: 10px;
+    height: 10px;
+    background-color: #d84e55;
+    border-radius: 100px;
+}
+.redrail-train-ticket-down-b{
+    width: 995px;
+    height: 112px;
+    background-color: #fff;
+    border-radius: 32px;
+    margin: 32px;
+    display: flex;
+}
+.rttdb-one{
+    width: 209px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.rttdb-one-a i{
+    font-size: 32px;
+    color: #1d1d1d;
+}
+.rttdb-one span{
+    font-size: 20px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #1d1d1d;
+
+}
+.rttdb-two{
+    width: 145px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rttdb-two i{
+    font-size: 32px;
+    color: #1d1d1d;
+}
+.rttdb-two input{
+    width: 60px;
+    height: 22px;
+}
+.rttdb-four{
+    width: 261px;
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rttdb-four-a{
+    width: 190px;
+    height: 18px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #747474;
+}
+.rttdb-four-b{
+    width: 261px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.rttdb-four-b p{
+    width: 190px;
+    height: 42px;
+    font-size: 20px;
+    color: #86003e;
+    font-weight: 700;
+    margin-top: 3px;
+}
+.rttdb-four-b div{
+    width: 28.8px;
+    height: 24px;
+    border: 2px solid #4a4a4a;
+    border-radius: 4px;
+}
+.rttdb-four-c{
+    width: 190px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #3e3e52;
+    
+}
+.rttdb-five{
+    width: 171px;
+    height: 112px;
+    color: #fff;
+    background-color: #d84e55;
+    border-radius: 0px 32px 32px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rttdb-five div{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.train-list{
+    width: 100%;
+    height: 1569px;
+    background-color: #f3f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.train-list h1{
+    height: 45px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 150%;
+}
+.train-list-details{
+    width: 1128px;
+    height: 114px;
+    background-color: #fff;
+    border: 1px solid #b2b2b2;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.details-one{
+    width: 273.5px;
+    height: 76px;
+}
+.details-one h2{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.details-one p{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #747474;
+    margin-right: 8px;
+}
+.details-one span{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #747474;
+}
+.details-two{
+    width: 586.9px;
+    height: 109px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.details-two-a{
+    width: 192.5px;
+    height: 69px;
+    color: #1d1d1d;
+}
+.details-two-a h2{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    
+}
+.details-two-a p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+
+}
+.details-two-a span{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 150%;
+
+}
+.details-two-b{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #747474;
+
+}
+.details-three button{
+    background: #465986;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+}
+.about-train-parent{
+    width: 100%;
+    height: 3800px;
+}
+.about-train{
+    width: 1096px;
+    height: 3800px;
+    margin: auto;
+}
+.about-train h2{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #3e3e52;
+    margin: 15px 0px;
+}
+.about-train p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #3e3e52;
+    margin-bottom: 30px;
+}
+.about-train ul{
+    color: #3e3e52;
+    margin: 16px 0px;
+    padding-left: 40px;
+}
+.about-train span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #d84e55;
+}
+.pnr-number{
+    width: 1096PX;
+    height: 17PX;
+    font-size: 14PX;
+    line-height: 17PX;
+    color: #3e3e52;
+    margin: 25PX 0PX;
+    padding-bottom:25px ;
+    border-bottom: 2PX solid #f3f4f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    width: 100%;
+    height: 334px;
+    background-color: #1b2230;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.list-parents{
+    width: 790px;
+    height: 238px;
+    display: flex;
+    align-items: center;
+
+}
+.list-parents div{
+    width: 158px;
+    height: 238px;
+}
+.list-parents h4{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #7e7e8c;
+    margin-bottom: 10px;
+}
+.list-parents ul{
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    list-style: none;
+}
+.logo-parents{
+    width: 338px;
+    height: 238px;
+}
+.logo-parents img{
+    width: 65px;
+    height: 42px;
+}
+.logo-parents p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    margin: 20px 0px;
+}
